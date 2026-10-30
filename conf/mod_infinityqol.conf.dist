@@ -1,0 +1,57 @@
+########################################
+# INFINITY QOL
+########################################
+#
+# Master switch for the module. 0 turns every feature off.
+# Each feature has its own switch below.
+#
+
+InfinityQoL.Enable = 1
+
+########################################
+# PETS
+########################################
+#
+# A hunter beast keeps the pet bar. A demon, ghoul, or water elemental
+# can stay summoned beside it. Attack, follow, stay, and aggression on that
+# bar apply to every pet the player controls.
+# Tame Beast still requires the active hunter pet to be stabled first.
+#
+# StableSlots is granted to hunters while this feature is on.
+# Wrath sells 4. This module accepts 1 through 20.
+# Copy client/InfinityQoL into Interface/AddOns so the stable window draws the extra slots.
+# A character already in the world sees a new slot count after relog.
+#
+
+InfinityQoL.Pets.Enable = 1
+InfinityQoL.Pets.StableSlots = 20
+
+# One extra bar lists every controlled pet's abilities. The normal pet bar
+# keeps attack, follow, stay, and aggression, and those orders reach every pet.
+# 0 leaves each pet's spells on the normal bar.
+InfinityQoL.Pets.SpellBar = 1
+
+########################################
+# STACK SIZES
+########################################
+#
+# Consumables and trade goods that already stack (stack size above 1).
+# Items that stack to 1 stay at 1. Quest items, gems, glyphs, and grey junk stay as they are.
+# 0 leaves that class at the database value. 100000 is the highest accepted value.
+# Players already in the world see a new cap after relog.
+#
+
+InfinityQoL.Stack.Enable = 1
+InfinityQoL.Stack.Consumable = 200
+InfinityQoL.Stack.TradeGoods = 200
+
+########################################
+# SPELLBOOK
+########################################
+#
+# The Unbound spellbook asks for this character's learned spells.
+# Learned ranks stay in color. A catalog spell the character has not
+# learned is dimmed. 0 leaves the spellbook looking as it does today.
+#
+
+InfinityQoL.Spellbook.Enable = 1

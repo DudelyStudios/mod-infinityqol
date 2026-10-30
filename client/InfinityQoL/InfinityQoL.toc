@@ -1,0 +1,5 @@
+## Interface: 30300
+## Title: Infinity QoL
+## Notes: Extra hunter stable slots, and one bar for every pet ability
+InfinityStable.lua
+PetBar.lua
